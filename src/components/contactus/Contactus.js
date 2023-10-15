@@ -1,0 +1,14 @@
+import React from 'react'
+
+function Contactus() {
+  return (
+    <>
+      <section id="contact-news-section" className="contact-news-section bg-[#16a03d] grid grid-cols-12">
+        <section className="contact-section md:col-span-8 col-span-12 p-10 md:p-20"><h1 className="text-4xl md:text-6xl font-bold pb-3 md:pb-6">CONTACT US</h1><div className="py-3"><h2 className="text-xl md:text-3xl font-bold">MEDIA RELATIONS</h2><a className="text-xl md:text-3xl font-bold text-white" href="mailto:example@example.com">MEDIAKINGPLEASURE @BASQUIAT.COM</a></div><div className="py-3">
+          <h2 className="text-xl md:text-3xl font-bold">SPONSOR AND PARTNER REQUESTS</h2><a className="text-xl md:text-3xl font-bold text-white" href="mailto:example@example.com">SPONSORSHIPKINGPLEASURE @BASQUIAT.COM</a></div><div className="py-3"><h2 className="text-xl md:text-3xl font-bold">GENERAL REQUESTS</h2><a className="text-xl md:text-3xl font-bold text-white" href="mailto:example@example.com">‍INFOKINGPLEASURE @BASQUIAT.COM</a></div><div className="py-3"><h2 className="text-xl md:text-3xl font-bold">GROUP TICKETS</h2><a className="text-xl md:text-3xl font-bold text-white" href="mailto:example@example.com">‍‍GROUPSKINGPLEASURE @BASQUIAT.COM</a></div><div className="py-3"><h2 className="text-xl md:text-3xl font-bold">JOB OPPORTUNITIES</h2><a className="text-xl md:text-3xl font-bold text-white" href="mailto:example@example.com">‍JOBSKINGPLEASURE @BASQUIAT.COM</a></div></section><section className="contact-section bg-[#ecd517] md:col-span-4 col-span-12 py-10 md:py-20 px-10"><h1 className="text-4xl md:text-6xl font-bold pb-5 md:pb-10">NEWS</h1><div className="py-4"><h2 className="text-xl md:text-3xl font-bold">LA TIMES</h2><p className="py-3 md:py-6">A trove of Basquiat’s little-seen work arrives in L.A. — a city pivotal to his artistic life</p><a href="https://www.latimes.com/entertainment-arts/story/2023-03-29/basquiat-exhibition-grand-los-angeles" className="hover:text-white" target="_blank" rel="noopener noreferrer">Read More</a></div><div className="py-4"><h2 className="text-xl md:text-3xl font-bold">HOLLYWOOD REPORTER</h2><p className="py-6">“Jean-Michel Basquiat: King Pleasure” Exhibition Debuts in Los Angeles</p><a href="https://www.hollywoodreporter.com/lifestyle/arts/jean-michel-basquiat-king-pleasure-exhibition-los-angeles-1235363703/" className="hover:text-white" target="_blank" rel="noopener noreferrer">Read More</a></div><div className="py-4"><h2 className="text-xl md:text-3xl font-bold">TIME OUT LOS ANGELES</h2><p className="py-6">The 48 best things to do in Los Angeles this week</p><a href="https://www.timeout.com/los-angeles/things-to-do/things-to-do-in-los-angeles-the-weeks-best-events" className="hover:text-white" target="_blank" rel="noopener noreferrer">Read More</a></div></section></section>
+
+    </>
+  )
+}
+
+export default Contactus

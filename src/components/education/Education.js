@@ -1,0 +1,19 @@
+import React from 'react'
+
+function Education() {
+  return (
+    <>
+      <section id="education-section" className="education-section bg-[#ecd517] p-10 md:p-20 grid grid-cols-12">
+        <h1 className="font-bold text-4xl md:text-6xl col-span-full">EDUCATION</h1>
+        <h2 className="font-bold text-2xl md:text-3xl py-2 md:py-4 col-span-full">FREE FAMILY ART NIGHTS</h2>
+        <h4 className="font-bold text-gray-800 col-span-full py-2 md:py-4">FREE EXHIBITION EVERY THURSDAY EVENING</h4><p className="col-span-12 md:col-span-8">Starting May 4th through the end of the exhibition’s engagement in LA, tickets are FREE EVERY Thursday from 5-6pm for the Jean-Michel Basquiat King Pleasure Exhibition. We have reserved a limited number of tickets which are available on a first-come-first-served basis. Visit the tickets page to reserve your tour of the galleries.</p><h4 className="font-bold text-gray-800 col-span-full py-2 md:py-4">FREE EXHIBITION + ART FIRST THURSDAY</h4>
+        <p className="col-span-12 md:col-span-8">We are collaborating with P.S. ARTS to offer free Family Art Nights for the community. On the first Thursday of every month, from 5 PM-6 PM, tickets are free to visit the exhibition and participate in the Family Art Night. We have reserved a limited number of tickets which are available on a first-come-first-served basis by booking your visit here. Families are invited to tour the galleries and then join in for some art- in the courtyard!</p>
+        <h4 className="font-bold text-gray-800 col-span-full py-2 md:py-4">ABOUT P.S. ARTS FAMILY ART NIGHTS AT JEAN-MICHEL BASQUIAT: KING PLEASURE LA</h4><p className="col-span-12 md:col-span-8">Facilitated by Los Angeles-based arts education nonprofit, P.S. ARTS, Family Art Night is an evening of hands-on artmaking inspired by the work of Jean-Michel Basquiat and led by a P.S. ARTS Teaching Artist. After visiting the exhibition, families are invited to explore, imagine and create their own neo-expressionist artwork in the courtyard outside of the galleries. All supplies are provided, participation is free of charge and no previous art experience is required. (45 minutes, starting at 6 PM) Family Art Night Made possible through generous gifts from Boardwalk Pictures, GRoW at Annenberg, TodayTix, Turnaround Arts, and the Basquiat family.</p>
+        <h4 className="font-bold text-gray-800 col-span-full py-2 md:py-4">BOOKING INSTRUCTIONS</h4><p className="col-span-12 md:col-span-8">Visit the tickets page, then select the desired time slot, then Free Art Night (available in the Thursday 5:00 pm – 6:00 pm time slots).</p><h4 className="font-bold col-span-full py-2 md:py-4 text-3xl">INFORMATION FOR SCHOOL GROUPS</h4><p className="col-span-12 md:col-span-8">In collaboration with P.S. ARTS, Jean-Michel Basquiat: King Pleasure© is pleased to offer Title 1 schools a free visit to the exhibition on Monday mornings beginning May 8, 2023. Thank you to GRoW Annenberg Foundation, TodayTix, Boardwalk Pictures, and Turnaround Arts for their support that allows us to offer this program. If you would like to bring your students to the exhibition, but do not qualify for the P.S. ARTS Program, you can book a group visit for a discounted rate of $20 per guest, with a minimum of 10 guests. Please email<span className="font-bold"> groupskingpleasure @basquiat.com</span> with the desired date and time of your visit, as well as the number of guests who will be attending.</p><h4 className="font-bold text-gray-800 col-span-full py-2 md:py-4">P.S. ARTS EDUCATIONAL VISITS</h4>
+        <p className="col-span-12 md:col-span-8">This 100-minute experience consists of a 45-minute self-guided tour of the galleries and a hands-on art lab. There are two time slots that can accommodate 50 students each:</p><ol className="list-decimal px-8 py-2"></ol></section>
+
+    </>
+  )
+}
+
+export default Education
